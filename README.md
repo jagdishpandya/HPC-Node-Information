@@ -2,7 +2,7 @@
 This script is only for HPC Slurm users.
 This Script requires slurm.
 
-A script to generate  a comprehensive overview of resource utilization on an HPC cluster nodes.
+A Linux Bash script to generate  a comprehensive overview of resource utilization on an HPC cluster nodes.
 Script Description: HPC Cluster Resource Monitor
 
 This will help HPC Slurm users 
