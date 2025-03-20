@@ -1,4 +1,7 @@
 # HPC-Node-Information
+This script is onlu for HPC Slurm users.
+This Script requires slurm.
+
 A script to generate  a comprehensive overview of resource utilization on an HPC cluster nodes.
 Script Description: HPC Cluster Resource Monitor
 
