@@ -27,6 +27,15 @@ Options:
 
 * -h, --help, -help: Display this help message.
 
+###########################################################################
+# Change institute name as required in below two lines in script
+CLUSTER_NAME="Your_Cluster_Name"
+INST_NAME="XYZ, ABCD"
+############################################################################
+# If you want to take hpc cluster name as per defined in slurm, uncommnet below line:
+#CLUSTER_NAME=$(cat /etc/slurm/slurm.conf | grep ^ClusterName | awk -F= '{print $2}')
+############################################################################
+
 Example:
 
 * ./hpc_node_info.sh
