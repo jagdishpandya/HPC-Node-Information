@@ -7,7 +7,7 @@
 # Last Modified: 2025-03-20
 # Purpose: This script gathers and displays information about HPC nodes for  CPU and  memory usage and availability details.
 # Usage: ./hpc_node_info.sh
-# Dependencies: None
+# Dependencies: Slurm
 # License: MIT (Optional)
 
 
@@ -36,7 +36,9 @@ done
 
 # Function to check exit status
 cleanup_and_exit() {
-  rm  ${FILE_NAME}
+  if [ -f ${FILE_NAME} ]; then
+  	rm  ${FILE_NAME}
+  fi
   exit 0
 }
 
